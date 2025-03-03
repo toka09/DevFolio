@@ -1,0 +1,72 @@
+@media (max-width: 1024px) {
+    .bg__image {
+    background-attachment: scroll;
+    }
+}    
+@media screen and (min-width: 992px) {
+    nav .nav-link:hover::before,
+    nav .nav-link:focus,
+    .navbar .active:before {
+    visibility: visible;
+    width: 80%;
+    }
+    nav .nav-link {
+    color: var(--color-white);
+    }
+    nav .nav-link:hover,
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show {
+    color: var(--color-white);
+    }
+}
+@media screen and (max-width: 992px) {
+    nav:has(.navbar-collapse.show) {
+    background: #4e4e4ee6;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    }
+    nav .navbar-collapse {
+    background-color: var(--color-white);
+    }
+    .dropdown-menu {
+    border: none;
+    }
+    .dropdown__icon__right {
+    rotate: 90deg;
+    }
+    .dropdown-menu {
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    }
+    .dropdown-menu .dropdown-item {
+    transition: var(--transition-03);
+    }
+    .dropdown-menu .dropdown-item:hover {
+    color: var(--color-blue);
+    }
+}
+@media screen and (min-width: 768px) {
+    .home .hero__title {
+    font-size: 4.5rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .service__card .services__card__title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .work .card .card__btn {
+    width: 30px;
+    height: 30px;
+    }
+    .work .card .card__btn i {
+    font-size: 15px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .slider__text {
+    width: 85%;
+    }
+}
