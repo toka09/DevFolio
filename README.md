@@ -16,4 +16,4 @@ A clean, responsive, and customizable portfolio template for developers to showc
 
 1. Clone repo:
    ```bash
-   git clone https://github.com/routeegy/Devfolio.git
+   git clone https://git@github.com:toka09/DevFolio.git
